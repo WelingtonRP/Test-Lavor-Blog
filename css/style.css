@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*MENU*/
+a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.top{
+    width: 1920px;
+    height: 140px;
+    background-color: #13322B;
+}
+.logo{
+    position: absolute;
+    left: 404px;
+    top: 41px;
+}
+.home{
+    position: absolute;
+    left: 684px;
+    top: 61px;
+}
+.quem-somos{
+    position: absolute;
+    left: 745px;
+    top: 61px;
+}
+.produtos{
+    position: absolute;
+    left: 856px;
+    top: 61px;
+}
+.compre-online{
+    position: absolute;
+    left: 939px;
+    top: 61px;
+}
+.telecontrol{
+    position: absolute;
+    left: 1063px;
+    top: 61px;
+}
+.postos-autorizados{
+    position: absolute;
+    left: 1162px;
+    top: 61px;
+}
+.videos{
+    position: absolute;
+    left: 1314px;
+    top: 61px;
+}
+.blog{
+    position: absolute;
+    left: 1380px;
+    top: 54px;
+    width: 60px;
+    height: 39px;
+    color: #F6E500;
+    background: #F6E500;
+}
+.blog p{
+    position: relative;
+    left: 1380px;
+    top: 61px;
+    color: #13322B;
+}
+.contato{
+    position: absolute;
+    left: 1459px;
+    top: 61px;
+}
+/*.rectangle{
+    position: absolute;
+    width: 60px;
+    height: 39px;
+    top: 54px;
+    left: 1380px;
+    background: #F6E500;
+}
+*/
