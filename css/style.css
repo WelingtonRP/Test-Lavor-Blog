@@ -4,9 +4,12 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Open Sans;
+    background:#FFFFFF;;
+}
 /*MENU*/
 a{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -69,7 +72,6 @@ a{
     background: #F6E500;
 }
 .blog p{
-    position: relative;
     left: 1380px;
     top: 61px;
     color: #13322B;
@@ -90,36 +92,54 @@ a{
 */
 /*Title*/
 .title{
-    font-family: Open Sans;
     font-size: 40px;
     font-style: italic;
     font-weight: 700;
     color: #13322B;
     line-height: 50px;
     letter-spacing: 0em;
-    text-align: left;
     margin-left: 405px;
     margin-top: 62px;
     text-transform: uppercase;
+    width: 760px;
 }
+/*Content*/
 .lp{
-    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: left;
     margin-left: 405px;
     margin-top: 75px;
     color: #13322B;
 }
 .icons{
+    margin-top: 53px;
+    float: left;
+}
+.icons ul{
+    list-style: none;
+}
+.face{
     margin-left: 362.82px;
+    margin-right: 29.11px;
+}
+.linkedin{
+    margin-left: 356.32px;
+    margin-top: 16px;
+}
+.mail{
+    margin-left: 358.27px;
+    margin-top: 21.11px;
+}
+.copy-link{
+    margin-left: 357.14px;
+    margin-top: 20.64px;
+}
+.wash{
     margin-top: 40px;
 }
 .lorem-ipsum{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -127,34 +147,31 @@ a{
     color: #777777;
     margin-left: 405px;
     margin-top: 43.63px;
+    width: 635px;
 }
 h2{
-    font-family: Open Sans;
     font-size: 32px;
     font-style: italic;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0em;
-    text-align: left;
     text-transform: uppercase;
     color: #13322B;
     margin-left: 405px;
     margin-top: 42px;
 }
 .sed-ut{
-    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: left;
     color: #777777;
     margin-left: 405px;
     margin-top: 41px;
+    width: 635px;
 }
 .lorem-ipsum2{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -162,22 +179,20 @@ h2{
     color: #777777;
     margin-left: 405px;
     margin-top: 26px;
+    width: 635px;
 }
 h3{
-    font-family: Open Sans;
     font-size: 28px;
     font-style: italic;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0em;
-    text-align: left;
     text-transform: uppercase;
     color: #13322B;
     margin-left: 405px;
     margin-top: 31px;
 }
 .sed-ut2{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -185,13 +200,13 @@ h3{
     color: #777777;
     margin-left: 405px;
     margin-top: 36px;
+    width: 635px;
 }
 .water-gun{
     margin-left: 405px;
     margin-top: 58px;
 }
 .lorem-ipsum3{
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -199,6 +214,15 @@ h3{
     color: #777777;
     margin-left: 405px;
     margin-top: 43.63px;
+    width: 635px;
+}
+/*Aside*/
+.search-bar{
+    top: 497px;
+    width: 350px;
+    height: 55px;
+    border: 0.5px solid #777777;
+    float: right;
 }
 /*Footer*/
 .bottom{
@@ -210,5 +234,119 @@ h3{
 .logo2{
     position: absolute;
     left: 404px;
-    top: 3240px;
+    margin-top: 78px;
+}
+.lavorwash{
+    position: absolute;
+    margin-top: 165px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 405px;
+}
+.address{
+    position: absolute;
+    margin-top: 165px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 690px;
+}
+.phone{
+    position: absolute;
+    margin-top: 279px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #F6E500;
+    margin-left: 714px;
+}
+.phone-svg{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 690px;
+    line-height: 30px;
+}
+.icons-footer{
+    position: absolute;
+    margin-left: 697.25px;
+    margin-top: 333px;
+}
+.icons-footer ul li{
+    display: inline-block;
+    list-style: none;
+}
+.icons-footer ul li:nth-child(2){
+    margin-left: 16px;
+}
+.icons-footer ul li:nth-child(3){
+    margin-left: 12px;
+}
+.icons-footer ul li:nth-child(4){
+    margin-left: 12px;
+}
+.np{
+    position: absolute;
+    margin-top: 165px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 975px;
+}
+.pda{
+    position: absolute;
+    margin-top: 208px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 975px;
+}
+.line1{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 975px;
+}
+.pdq{
+    position: absolute;
+    margin-top: 264px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 975px;
+}
+.line2{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 975px;
+}
+.qg{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 1260px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+.iso{
+    position: absolute;
+    margin-top: 207px;
+    margin-left: 1260px;
 }
