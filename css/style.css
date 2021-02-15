@@ -88,8 +88,7 @@ a{
     top: 54px;
     left: 1380px;
     background: #F6E500;
-}
-*/
+}*/
 /*Title*/
 .title{
     font-size: 40px;
@@ -349,4 +348,7 @@ h3{
     position: absolute;
     margin-top: 207px;
     margin-left: 1260px;
+}
+@media(max-width: 800px){
+
 }
