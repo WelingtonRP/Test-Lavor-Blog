@@ -68,13 +68,9 @@ a{
     top: 54px;
     width: 60px;
     height: 39px;
-    color: #F6E500;
-    background: #F6E500;
-}
-.blog p{
-    left: 1380px;
-    top: 61px;
     color: #13322B;
+    background: #F6E500;
+    text-align-last: center;
 }
 .contato{
     position: absolute;
@@ -215,14 +211,6 @@ h3{
     margin-top: 43.63px;
     width: 635px;
 }
-/*Aside*/
-.search-bar{
-    top: 497px;
-    width: 350px;
-    height: 55px;
-    border: 0.5px solid #777777;
-    float: right;
-}
 /*Footer*/
 .bottom{
     width: 1920px;
@@ -349,6 +337,60 @@ h3{
     margin-top: 207px;
     margin-left: 1260px;
 }
-@media(max-width: 800px){
-
+/*Right side*/
+.search-bar{
+    height: 55px;
+    width: 350px;
+    border: 0.5px solid #777777;
+    margin-left: -35px;
+    margin-top: 40px;
+}
+.search{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #777777;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+.search-svg{
+    margin-left: 300px;
+    margin-top: -25px;
+}
+.content-sidebar{
+    height: 496px;
+    width: 350px;
+    border: 0.5px solid #777777;
+    margin-left: -35px;
+    margin-top: 40px;
+}
+.more-about{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #13322B;
+    margin-left: 24px;
+    margin-top: 29px;
+}
+.line-more{
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.other-content{
+    margin-left: 26.5px;
+    margin-top: 20px;
+}
+.subscribe{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+/*Grid*/
+.full-content{
+    display: grid;
+    grid-template-columns: 1fr 350px;
 }
